@@ -21,6 +21,7 @@ public class introCollection<E> {
         studentCollect.add(new Student("John Lee", generateID()));
         studentCollect.add(new Student("Neymar da Santos", generateID()));
 
+        
         GenCollection.displayCollection(studentCollect);
 
         // Because Collection is generic type so it doesn't accept element of primitive type
