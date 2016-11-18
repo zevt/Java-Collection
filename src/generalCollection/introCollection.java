@@ -9,7 +9,7 @@ import java.util.LinkedList;
 /**
  * Created by  Viet Quoc Tran
  */
-public class introCollection<E> {
+public class IntroCollection<E> {
     private static int id_index = 0;
 
     public static void main(String... args) {
@@ -42,5 +42,4 @@ public class introCollection<E> {
     private static int generateID() {
         return ++id_index;
     }
-
 }
