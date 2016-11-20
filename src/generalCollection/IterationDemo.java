@@ -35,6 +35,7 @@ public class IterationDemo {
         System.out.println(" Using Lambda with Comsumer Interface and Reference to function ");
         intCollect.forEach(System.out::println);
         System.out.println();
+        
 
         // In additional to operation supported by Collection, List interface ( ArrayList and LinkedList  classes )
         // support operation with index; so
