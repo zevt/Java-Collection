@@ -4,11 +4,9 @@ import java.util.Collection;
 
 /**
  * Created by Viet Quoc Tran
- * vt@zeroexception.com
  */
-public interface GenCollection<E> {
-
-     static <E> void displayCollection(Collection<E> elements) {
+public class GenCollection<E> {
+    public static <E> void displayCollection(Collection<E> elements) {
 
         elements.forEach(System.out::println);
 
