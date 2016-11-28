@@ -17,5 +17,4 @@ public class TestCompare {
 		list.sort((s1, s2) -> new ChainingComparator().compare(s1,s2));
 		System.out.println(list);
 	}
-
 }
